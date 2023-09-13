@@ -27,6 +27,7 @@ Sort of a table of contents for the different experiments. I am using hw as a sh
 
 ### Python
  - [hello_world.py](https://github.com/robovo/hello-world-collection/blob/main/Python/hello_world.py) - printing to console
+ - [Logging](https://github.com/robovo/hello-world-collection/blob/main/Python/logging) - Examples of using logging module
 
 
 ## The TODO list
@@ -40,8 +41,11 @@ Sort of a table of contents for the different experiments. I am using hw as a sh
     - [ ] Set to an ENV variable
     - [ ] Read from ENV
 
+  - Packages
+    - [x] Print hw returned from a function in a different module
+
   - Modules
-    - [ ] Using logging module
+    - [x] Using logging module
     - [ ] Write to JSON
 
   - Network
@@ -58,8 +62,9 @@ Sort of a table of contents for the different experiments. I am using hw as a sh
 
 - HTML
   - A passive web page containing hw:
-    - [ ] In the title
-    - [ ] In the body
+    - [x] In the title
+    - [x] In the body
+    - [x] A pretty version
     - [ ] In a SVG canvas
 
 - Flask

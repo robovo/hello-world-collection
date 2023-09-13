@@ -1,0 +1,37 @@
+body {
+  /* Allowing for centering */
+  display: flex;
+  width: 100%;
+  /*  Making sure body does not overflow */
+  margin: 0%;
+  /* Filling the page with body */
+  height: 100vh;
+  background-color: #222222; 
+  /* Centering content vertically */
+  align-items: center;
+}
+
+
+/* Downloaded from Google fonts https://fonts.google.com/specimen/Raleway */
+@font-face {
+  font-family: Raleway;
+  src: url(Raleway-VariableFont_wght.ttf);
+}
+
+#greeting {
+  flex: 1;
+  color: bisque;
+  /* Horiyontal centering */
+  text-align: center;
+  font-size: 7em;
+  /* FOnt name specified above */
+  font-family: Raleway;
+  margin: 10%;
+}
+
+/* Shrinking text so we don't run into the wall on the right on mobile. */
+@media (max-width: 560px) {
+  #greeting {
+    font-size: 5em;
+  }
+}

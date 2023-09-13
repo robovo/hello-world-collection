@@ -1,7 +1,7 @@
 # Custom preferences
 *.json
 *.xml
-*.log
+**.log
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
